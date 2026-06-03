@@ -1,3 +1,4 @@
+# CategoriesController manages CRUD operations for Category model, ensuring proper handling of associated equipment and validation errors.
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :update, :destroy]
 
